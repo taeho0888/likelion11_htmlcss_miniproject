@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TheJamsil5Bold';
+}
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    height: 40px;
+    background-color: #333;
+}
+
+main {
+    height: 600px;
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+footer {
+    height: 200px;
+    background-color: #f1f1f1;
+}
+
+#top {
+    height: 60px;
+    background-color: #f0cdea;
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 35px;
+    color: white;
+}
+
+#container {
+    height: 410px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+aside {
+    height: 100px;
+    background-color: white;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 30%;
+    height: 45%;
+    background-color: wheat;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p{
+    text-align: center;
+    position: relative;
+    color: #efefef;
+}
+
+#team {
+    width: 470px;
+    height: 100%;
+    background-color: #31999c;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+#hi {
+    width: 230px;
+    height: 100%;
+    background-color: pink;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#music{
+    background-image: url(./images/seori.jpeg);
+    background-size: cover;
+    height: 45%;
+    width: 30%;
+    color: white;
+    position: relative;
+}
+
+#food{
+    background-image: url(./images/meat.jpeg);
+    background-size: cover;
+    height: 45%;
+    width: 30%;
+    color: white;
+    position: relative;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+}
